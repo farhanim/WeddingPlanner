@@ -285,6 +285,15 @@
     }
   });
 
+  //music player
+	var sound = new Howl({
+		src: ['./music/music1.mp3'],
+		autoplay: true,
+		loop: true
+	});
+	sound.play();
+
+
   $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
     disableOn: 700,
     type: 'iframe',
