@@ -185,6 +185,12 @@ caption {
 th {
   text-align: inherit; }
 
+.text-gretings {
+  font-family: "Great Vibes", cursive;
+  color: #dc3545;
+  text-align: center;
+}
+
 label {
   display: inline-block;
   margin-bottom: 0.5rem; }
@@ -9408,6 +9414,9 @@ textarea.form-control {
 @media (max-width: 767.98px) {
   .blog-entry {
     margin-bottom: 30px; } 
+  .text-gretings {
+    font-size: 18px!important;
+  }
   .bride-groom .img {
     width: 200px;
     height: 200px; } }
